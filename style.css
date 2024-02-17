@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nova+Square&display=swap');
+
+*{
+    margin: 0;
+    padding:0;   
+}
+body{
+    background-color: rgb(32, 31, 31);
+    font-family: 'Montserrat', sans-serif;
+}
+.sidebar{
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 300px;
+    background-color: rgb(0, 0, 0);
+    padding: 24px;
+}
+.sidebar .logo img{
+    width: 40px;
+    
+}
+.sidebar .nav ul{
+    list-style:none;
+    /* margin-top: 0px; */
+    
+}
+.sidebar .nav ul li{
+    padding: 8px 0px;
+}
+.sidebar .nav ul li a{
+    color: #999696;
+    text-decoration: none;
+    /* font-weight: 700; */
+    font-size: 14px;
+}
+.space{
+    margin-left: 20px;
+}
+.sidebar .nav ul li .fa{
+    font-size: 15px;
+    margin-right: 10px;
+
+}
+
+
+/* For liked songs list */
+/* .slidebar .nav .list1{
+    width: 40px;
+    height: 40px;
+}
+.list1 img .list{
+    width: 20px;
+    height: 20px;
+} */
+
+.sidebar .nav ul li a:hover{
+    color: #ffffff;
+    
+}
+.sidebar .policies {
+    position: absolute;
+    bottom: 100px;
+}
+.sidebar .policies ul{
+    list-style:none;
+    
+}
+.sidebar .policies ul li{
+    padding-bottom: 5px;
+}
+.sidebar .policies ul li a{
+    color: rgb(189, 185, 185);
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 10px;
+}
+.sidebar .policies ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.main-container{
+    margin-left: 350px;
+    margin-bottom: 100px;
+}
+.topbar{
+    display: flex;
+    justify-content:space-between;
+    background-color: black;
+    padding: 14px 30px;
+}
+.topbar .prev-next-button button{
+    color: #7a7a7a;
+    cursor: not-allowed;
+    width: 34px;
+    height: 34px;
+    border-radius: 100%;
+    font-size: 18px;
+    border: 0px;
+    background-color: #090909;
+    margin-right: 10px;
+
+}
+
+.topbar .navbar {
+    display: flex;
+    align-items: center;
+}
+.topbar .navbar ul{
+    list-style: none;
+}
+.topbar .navbar ul li{
+    display: inline-block;
+    margin: 0px 8px;
+    width: 70px;
+}
+.topbar .navbar ul li a{
+    color: #b3b3b3;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+.topbar .navbar ul li a:hover{
+    color: white;
+    font-size: 15px;
+}
+
+.topbar .navbar button{
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 14px 30px;
+    border: 0px;
+    border-radius: 40px;
+    cursor: pointer;
+    margin-left: 20px;
+}
+.topbar .navbar button:hover{
+    background-color: #f2f2f2;
+
+}
+/* 
+Ref */
+
+.spotify-playlist{
+    padding: 20px 40px;
+}
+.spotify-playlist .viral{
+    display: flex;
+    width: 100%;
+    height: 300px;
+    background: rgb(75, 132, 105);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgba(0,212,255,1) 100%);
+    border-radius: 20px;
+}
+.spotify-playlist .viral .img1{
+    width: 16rem;
+    height: 16rem;
+    margin: 20px;
+    border-radius: 10px;
+}
+.spotify-playlist .viral text{
+    width: 100px;
+    height: 50px;
+}
+
+.spotify-playlist .viral .text .text1{
+    margin-top: 80px;
+    color: #f2f2f2;
+    font-size: 15px;
+}
+.spotify-playlist .viral .text .text2{
+    margin-top: 20px;
+    color: #f2f2f2;
+    font-size: 25px;
+    font-weight: 550;
+}
+.spotify-playlist .viral .text .other{
+    display: flex;   
+    margin-top: 50px; 
+}
+.spotify-playlist .viral .text .other .img2{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+    border-radius: 100%;
+}
+.spotify-playlist .viral .text .other .text3{
+    margin-top: 4px;
+    color: #f2f2f2;
+    font-size: 15px;
+    font-weight: 550;
+}
+.spotify-playlist .viral .text .other .side-option{
+    display: flex;
+    margin-left: 200px;
+    color: white;
+}
+.spotify-playlist .viral .text .other .side-option .sy1{
+    margin-right: 20px;
+}
+.spotify-playlist .viral .text .other .side-option .sy2{
+    margin-right: 20px;
+}
+.spotify-playlist .viral .text .other .side-option .sy3{
+    margin-right: 20px;
+}
+.sy33{
+    margin-right: 10px;
+}
+
+.spotify-playlist h2{
+    color: white;
+    font-size: 22px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+
+.spotify-playlist .list{
+   display: flex;
+   gap: 20px;
+   overflow: hidden;
+}
+
+ .spotify-playlist .list .item{
+    min-width: none;
+    width: 300px;
+    padding: 20px;
+    background-color: #181818;
+    border-radius: 6px;
+    cursor:pointer;
+    transition: all ease 0.4s;
+}
+
+.spotify-playlist .list .item:hover{
+    background-color: #252525;
+}
+
+ .spotify-playlist .list .item img{
+    width: 100%;
+    border-radius: 6px;
+    margin-top: 10px;
+ }
+
+ .spotify-playlist .list .item .play{
+    position: relative;
+ }
+ .spotify-playlist .list .item .play .fa{
+    position: absolute;
+    right: 10px;
+    top: -60px;
+    padding: 18px;
+    background-color: #1db954;
+    border-radius: 100%;
+    opacity: 0;
+    transition: all ease 0.2s;
+ }
+
+ .spotify-playlist .list .item:hover .play .fa{
+    opacity: 1;
+    transform: translate(-20px);
+ }
+ 
+ .spotify-playlist .list .item h4{
+    color: white;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+
+ .spotify-playlist .list .item p{
+    color: #989898;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 700;
+ }
+ 
+
+.spotify-playlist hr{
+    margin: 70px 0px 0px;
+    border-color: #636363;
+
+}
+
+/* Lower Bar */
+
+
+.lowerbar{
+    position:fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 50px;
+    padding: 10px 15px;
+   
+    background-color: rgb(0, 0, 0);
+}
+.lowerbar .music{
+    display: flex;
+}
+.lowerbar .music .songtext{
+    padding-left: 25px;
+    padding-top: 0px;
+    font-size: 10px;
+    color: white;
+}
+.music img{
+    width: 40px;
+    height: 40px;
+    padding-left: 10px;
+}
+.lowerbar .music .songtext .bottom{
+    font-weight: 200;
+    padding-top: 2px;
+}
+.songtext p{
+    font-size: 15px;
+    font-weight: 600;
+    font-family: "Montserrat";
+}
+
+/* Player buttons */
+.main{
+    position:fixed;
+    bottom: 0;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.main .music {
+    display:flex;
+    align-items: center;
+    padding-left: 30px ;
+    width: 20%;
+    /* height: 80px; */
+    background-color: rgb(0, 0, 0);
+}
+.icon{
+    margin-left: 15px;
+    margin-right: 30px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.icon:hover{
+    opacity: 1;
+    color: red;
+    cursor: pointer;
+}
+.main .music img{
+    width: 40px;
+    height: 40px;
+}
+.main .music p{
+    display: inline-block;
+    padding-left: 10px;
+    font-family: Geneva, Verdana, sans-serif;
+    color: white;
+    font-size: smaller;
+}
+span{
+    font-size: larger;
+    font-weight: 600;
+}
+
+.control{
+    width: 55%;
+    
+    background-color: rgb(0, 0, 0);
+}
+.upper
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7px;
+}
+.one{
+    opacity: 0.7;
+    height: 15px;
+    margin-right: 25px;
+}
+.one:hover
+{
+    opacity: 1.4;
+}
+.one-two
+{
+    height: 35px;
+    margin-right: 25px;
+}
+
+.lower{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+}
+.player-progress-bar-range{
+    width: 45em;
+}
+.lower p{
+    font-family: montserrat;
+    
+    color: white;
+}
+.start{
+    padding-right: 10px;
+}
+.end{
+    padding-left: 10px;
+}
+
+.sound{
+    display: flex;
+    align-items: center;
+    width: 25%;
+    background-color: rgb(0, 0, 0);
+}
+
+.speaker{
+    width: 35px;
+    height: 35px;
+}
+.sound .player-progress-bar-range{
+    width: 40em;
+    margin-right: 10px;
+}
+.sound i
+{
+    cursor: pointer;
+}
+.icon1{
+    margin-right: 30px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.icon2{
+    margin-left: 10px;
+    margin-right: 30px;
+    color: #ffffff;
+    opacity: 0.5;
+}
+.icon3{
+    margin-right: 30px;
+    color: #ffffff;
+    opacity: 0.5;margin-right: 20px;
+}
+.icon1:hover{
+    opacity: 1;
+}
+.icon2:hover{
+    opacity: 1;
+    color: #1db954;
+}
+.icon3:hover{
+    opacity: 1;
+}
+
+/* .copyright{
+    display: flex;
+} */
+.copyright p{
+    margin-right: 9px;
+    margin-top: 50px;
+    color: white;
+    opacity: 0.5;
+    font-size: 12px;
+    font-weight: bolder;
+}
+
+.copyright .lower-button button{
+    
+    width: 100px;
+    height: 50px;
+    background-color:forestgreen;
+}
+
